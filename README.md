@@ -1,6 +1,6 @@
 # Twitter UI 
 
-This is a simple **Twitter interface ** built using pure **HTML and CSS only**.  
+This is a simple **Twitter interface** built using pure **HTML and CSS only**.  
 The project is designed as part of my front-end development practice.
 
 ## 🚀 Features
