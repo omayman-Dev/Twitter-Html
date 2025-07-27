@@ -1,0 +1,214 @@
+.left-sidebar{
+  width: 330px;
+  height: 2000px;
+  border-right: 1px solid rgb(226, 226, 226);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+background-color: white;
+z-index: 100;
+}
+.logo-twitter{
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.logo{
+  width: 25px;
+  height: 25px;
+  padding: 8px 10px;
+  
+}
+.logo-twitter:hover{
+  background-color: rgb(236, 236, 236);
+}
+.home-icon ,.search-icon{ 
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.home-dot{
+  position: relative;
+  
+}
+.dot{
+  position: absolute;
+  top:-10px;
+  right:24px;
+  font-weight: bold;
+  color: blue;
+}
+.search-icon{
+margin-left: 10px;
+}
+.notifications-icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.notifications{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.notification-count{
+  position: relative;
+  border: none;
+  
+}
+.count{
+  background-color:rgb(29, 155, 240) ;
+  position: absolute;
+  top:-5px;
+  right:8px;
+  padding: 4px 6px;
+  border-radius: 100%;
+  font-size: 12px;
+}
+.left-side-box{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 230px;
+  
+}
+
+
+.home-box ,.home-box-notification ,
+.home-box-messages{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  
+}
+.home-box:hover ,.home-box-notification:hover,
+.home-box-messages:hover{
+  background-color:rgb(228, 228, 228);
+
+}
+.home-box-notification{
+  width: 200px;
+  margin-left: 50px;
+  
+}
+
+.home-box-messages{
+  width: 170px;
+  margin-left: 20px;
+}
+.Messages-icon{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.Lists-icon{
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.list{
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  margin-right: 40px;
+}
+.Premium-icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: -50px;
+}
+.Premium-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+}
+.profile-icon{
+  width: 25px;
+  height: 25px;
+  margin-left: -9px;
+  margin-right: 20px;
+}
+.more-icon{
+  width: 25px;
+  height: 25px;
+  margin-left: -15px;
+  margin-right: 20px;
+}
+.left-side-button{
+  width: 220px;
+  height: 50px;
+  background-color:rgb(29, 155, 240);
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.15) ;
+}
+.account-container{
+  width: 270px;
+  height: 80px;
+ cursor: pointer;
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+.account-container:hover{
+  background-color: rgb(238, 238, 238);
+}
+.channel-picture{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 10px;
+  
+}
+.name{
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.three-dot{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.account-name{
+  color:gray;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
